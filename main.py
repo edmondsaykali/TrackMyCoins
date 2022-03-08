@@ -24,6 +24,7 @@ except exceptions.RequestError:
 except exceptions.coinNotAvailable:
     print("\nSorry! The coin you specified could not be found")
     sys.exit(1)
+#we will be working on a new feature to have several coins here
 
 totalAssets = coinAsset*coinPrice
 today = date.today()
