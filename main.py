@@ -40,8 +40,7 @@ try:
 
         totalAssets = float(value)*coinPrice
         fCoinDict[str(key)] = totalAssets
-        today = date.today()
-        dat = today.strftime("%d/%m/%y")
+
 
 except exceptions.RequestError:
     print("\nError has occured while raising the request")
